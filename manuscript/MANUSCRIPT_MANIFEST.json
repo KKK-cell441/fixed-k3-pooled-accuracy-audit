@@ -4,18 +4,18 @@
   "files": [
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\main.tex",
-      "bytes": 55060,
-      "sha256": "191edd3c0a4e896304eb1dab8b07969b87fff598fe4d13b95972dd955895f010"
+      "bytes": 57143,
+      "sha256": "da191c5ac361f59457197cf426dfa098b3e47ed4ef03cb9f38bbeb3ce786f8ba"
     },
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\cover_letter_measurement.tex",
-      "bytes": 3473,
-      "sha256": "41839c61a8e558fb178223fb4237fb6c67939ca5abc15624466c725c561df52d"
+      "bytes": 3536,
+      "sha256": "5e087cfa1f75096c8cde5c4cfd87cf1ca3a055be1845528a848409e456e2ca0a"
     },
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\cover_letter_measurement.pdf",
-      "bytes": 52174,
-      "sha256": "f744ef166742e0f8757846abc879cd4a95fc4a7b72eec608bb84318142ca534b"
+      "bytes": 52473,
+      "sha256": "ab44d83dccff830d096124d867d7e9dcf3b72b8eb098599ddad6fa7838ac972a"
     },
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\cover_letter_isa_transactions.tex",
@@ -94,13 +94,13 @@
     },
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\references.bib",
-      "bytes": 12236,
-      "sha256": "10ca527145abe6379161f9331d2fc87dfad8ee812ee4d0cb80f16a7389d23bf4"
+      "bytes": 12566,
+      "sha256": "3d6cba9b3b94c6b127e89ef5b0a752dec0d7059f904983cfee644766a6ee51bf"
     },
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\main.pdf",
-      "bytes": 607419,
-      "sha256": "c80e94a12593d01f9d4f9f6cfab2b512408d33486b09cd1dd651b0377670360e"
+      "bytes": 636514,
+      "sha256": "dc7f6540b21542e91bf5521dda8845ea16473c9d95db86b306bd60179ad7b59f"
     },
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\DRAFT_CONFIG.md",
