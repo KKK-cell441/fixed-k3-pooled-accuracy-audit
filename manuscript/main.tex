@@ -39,11 +39,11 @@ Pooled diagnostic accuracy is widely used to decide whether preprocessing
 should be enabled, although measurement condition, validation unit, and class
 mix can alter what that number means. We audit this authorization problem using
 same-source and external bearing evidence. On HUSTbearing, fixed K3 shows a
-clean-trained speed-level gain of \SI{9.72}{\pp}, but under the evaluated
-fixed matched 0 dB realization, noise augmentation on both raw and K3 reverses
-the effect to \SI{-7.94}{\pp}
+clean-trained speed-level gain of \SI{9.72}{\pp}. Under the evaluated fixed
+matched 0 dB noise realization, the clean-trained gain reverses sign, yielding
+a matched effect of \SI{-7.94}{\pp}
 (unit-only interval [-12.61, -3.44]; crossed robustness interval
-[-12.72, -3.28]) and returns Not qualified under the illustrative
+[-12.72, -3.28]), and the audit returns Not qualified under the illustrative
 $\delta=1$ pp margin. The bearing-level effect is \SI{0.49}{\pp}
 [-0.62, 1.53], and bearing-wise pooled balanced accuracy stays below five-class
 chance. The speed-minus-bearing contrast of \SI{10.21}{\pp}
@@ -830,11 +830,13 @@ screen with limited incremental value.
 \subsection{Conclusion}
 
 This study shows that pooled diagnostic accuracy is not sufficient to authorize
-VMD preprocessing. Two empirical results carry the argument. First, on the same
-HUSTbearing source, a clean-trained speed-level gain of \SI{9.72}{\pp} reverses
-to \SI{-7.94}{\pp} (unit-only interval [-12.61, -3.44]; crossed robustness
-interval [-12.72, -3.28]) under the evaluated fixed matched 0 dB realization.
-Second, in the independent PHM2012 run-to-failure audit with 17
+VMD preprocessing. Two empirical results carry the argument. For HUSTbearing,
+the evaluated fixed matched 0 dB realization changes the sign of the
+clean-trained speed-level gain, yielding \SI{-7.94}{\pp} (unit-only interval
+[-12.61, -3.44]; crossed robustness interval [-12.72, -3.28]). This indicates
+that the observed preprocessing effect is conditional on the evaluated
+training-test noise configuration rather than uniformly transferable across
+measurement conditions. Second, in the independent PHM2012 run-to-failure audit with 17
 non-fragile bearings, clean-trained K3 raises mean balanced accuracy by
 \SI{24.51}{\pp}, but the healthy class gains \SI{70.75}{\pp} while the degraded
 class loses \SI{21.73}{\pp}. The pooled gain therefore coexists with an
