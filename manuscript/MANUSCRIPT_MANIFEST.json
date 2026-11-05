@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\main.tex",
-      "bytes": 57143,
-      "sha256": "da191c5ac361f59457197cf426dfa098b3e47ed4ef03cb9f38bbeb3ce786f8ba"
+      "bytes": 57180,
+      "sha256": "65a07a1705b881ec8e53eda6a00db30ae841a4aa902812a1b45defbb62672250"
     },
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\cover_letter_measurement.tex",
@@ -15,7 +15,7 @@
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\cover_letter_measurement.pdf",
       "bytes": 52473,
-      "sha256": "ab44d83dccff830d096124d867d7e9dcf3b72b8eb098599ddad6fa7838ac972a"
+      "sha256": "953fe708bc035e56839de9de18f80d2e7986d382ea45f87d2663c878bd331971"
     },
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\cover_letter_isa_transactions.tex",
@@ -99,8 +99,8 @@
     },
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\main.pdf",
-      "bytes": 636514,
-      "sha256": "dc7f6540b21542e91bf5521dda8845ea16473c9d95db86b306bd60179ad7b59f"
+      "bytes": 636542,
+      "sha256": "7dd0cefb6f4a45e4289fd8231ad9f79431f8f2f98cc0cd1a41e292c0eeee0025"
     },
     {
       "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\DRAFT_CONFIG.md",
