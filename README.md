@@ -2,6 +2,9 @@
 
 Reproducibility artifact for same-source and external bearing audits.
 
+Public repository:
+https://github.com/KKK-cell441/fixed-k3-pooled-accuracy-audit
+
 ## Main findings
 
 - On HUSTbearing, a clean-trained speed-level gain of +9.72 percentage points

@@ -1,0 +1,82 @@
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.65in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+
+\pagestyle{empty}
+
+\begin{document}
+\linespread{0.95}\selectfont
+\setlength{\parskip}{0.35em}
+
+\begin{flushright}
+5 November 2026
+\end{flushright}
+
+\noindent
+Editorial Office\\
+\emph{Measurement}
+
+\vspace{0.7em}
+\noindent
+Dear Editor,
+
+\vspace{0.4em}
+Please consider our manuscript, ``Pooled Accuracy Is Not Enough to Authorize
+Fixed-K3 VMD Preprocessing: Same-Source and External Bearing Audits,'' for
+publication in \emph{Measurement}.
+
+The manuscript addresses a measurement-evaluation problem: a preprocessing
+decision is often authorized by pooled diagnostic accuracy even when
+measurement conditions, validation units, and class-specific effects can change
+what that number means. The paper's contribution is an empirical audit of this
+authorization problem, not a new VMD algorithm or classifier.
+
+The first central result is a same-source HUSTbearing audit. Against a
+clean-trained raw baseline, fixed K3 shows a speed-level gain of 9.72
+percentage points. When both raw and K3 are trained with matched 0 dB noise
+augmentation, the effect reverses to -7.94 points (unit-only interval
+[-12.61, -3.44]; crossed robustness interval [-12.72, -3.28]). The
+matched-augmentation audit is Not qualified under an illustrative materiality
+margin of 1 point. The clean-trained advantage is therefore baseline-specific,
+not a deployment warrant.
+
+The second central result is an independent PHM2012/PRONOSTIA run-to-failure
+audit with 17 non-fragile physical bearings. Clean-trained K3 raises pooled
+balanced accuracy by 24.51 points, but the healthy class improves by 70.75
+points while the degraded class falls by 21.73 points (simultaneous interval
+[-43.14, -5.39]). The block is therefore Not qualified on class-harm grounds
+despite its positive pooled mean. Matched augmentation changes the mean effect
+to -6.29 points. This external block makes the central measurement point
+visible: a pooled improvement can coexist with class-specific harm.
+
+The study is a secondary analysis of completed vibration experiments and adds
+no physical test campaign. Additional HSE, HUST-Hanoi, SCA, and Mehran-UET
+audits remain Insufficient or Not qualified under the same evidentiary
+discipline. A three-state evidence audit is used to distinguish Not qualified
+from Insufficient and to prevent a missing or fragile class interval from being
+read as a pass. This audit is a decision aid, not a validated certification
+framework, and no real block receives Qualified in the present evidence.
+CCMG is reported only as an optional measurement-condition prefilter with small
+incremental value.
+
+The work directly addresses two areas in the journal's scope: evaluation
+procedures for performance analysis of measurement processes and algorithms,
+and measurement data processing. The cover letter does not position the paper
+as a new sensor-calibration method or a new fault-diagnosis network.
+
+The manuscript is original, is not under consideration elsewhere, and all
+authors will approve the submitted version. The analysis code, frozen
+protocols, generated tables, figures, and result files are available at
+https://github.com/KKK-cell441/fixed-k3-pooled-accuracy-audit. The source
+datasets retain their original licenses and access conditions.
+
+\vspace{0.7em}
+\noindent
+Sincerely,\\
+Corresponding author\\
+Contact details supplied in the Editorial Manager submission.
+
+\end{document}
