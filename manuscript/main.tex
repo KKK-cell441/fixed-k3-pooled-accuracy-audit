@@ -39,8 +39,9 @@ Pooled diagnostic accuracy is widely used to decide whether preprocessing
 should be enabled, although measurement condition, validation unit, and class
 mix can alter what that number means. We audit this authorization problem using
 same-source and external bearing evidence. On HUSTbearing, fixed K3 shows a
-clean-trained speed-level gain of \SI{9.72}{\pp}, but matched 0 dB noise
-augmentation on both raw and K3 reverses the effect to \SI{-7.94}{\pp}
+clean-trained speed-level gain of \SI{9.72}{\pp}, but under the evaluated
+fixed matched 0 dB realization, noise augmentation on both raw and K3 reverses
+the effect to \SI{-7.94}{\pp}
 (unit-only interval [-12.61, -3.44]; crossed robustness interval
 [-12.72, -3.28]) and returns Not qualified under the illustrative
 $\delta=1$ pp margin. The bearing-level effect is \SI{0.49}{\pp}
@@ -98,8 +99,8 @@ diagnostics, but they do not determine what a reported gain authorizes.
 We audit two ways in which that authorization can fail. First, the same HUSTbearing
 source is evaluated under a clean-trained baseline and under matched noise
 augmentation. A clean-trained speed-level gain of \SI{9.72}{\pp} reverses to
-\SI{-7.94}{\pp} once both representations are trained under the same 0 dB
-measurement condition. The same-source speed and bearing holdouts also give
+\SI{-7.94}{\pp} under the evaluated fixed matched 0 dB realization. The
+same-source speed and bearing holdouts also give
 different evidence scopes, although their contrast is descriptive rather than a
 paired per-bearing interaction. Second, an independent PHM2012 run-to-failure
 audit with 17 non-fragile bearings is used as a locked external block. There,
@@ -805,9 +806,9 @@ reported in Appendix Table \ref{tab:qualification-class-audit}.
 The results support three claims in order of evidence strength. First, a
 pooled gain is not stable under measurement condition. The HUSTbearing
 clean-trained speed-level gain of \SI{9.72}{\pp} reverses to
-\SI{-7.94}{\pp} when raw and K3 receive matched noise augmentation. The
-clean-trained gain is therefore a baseline-specific observation, not a
-preprocessing warrant.
+\SI{-7.94}{\pp} when raw and K3 receive matched noise augmentation in the
+evaluated fixed realization. The clean-trained gain is therefore a
+baseline-specific observation, not a preprocessing warrant.
 
 Second, a positive pooled gain can conceal class-specific harm. In PHM2012,
 the clean-trained mean effect is \SI{24.51}{\pp}, but the degraded-class
@@ -832,8 +833,8 @@ This study shows that pooled diagnostic accuracy is not sufficient to authorize
 VMD preprocessing. Two empirical results carry the argument. First, on the same
 HUSTbearing source, a clean-trained speed-level gain of \SI{9.72}{\pp} reverses
 to \SI{-7.94}{\pp} (unit-only interval [-12.61, -3.44]; crossed robustness
-interval [-12.72, -3.28]) once both raw and K3 are trained with matched 0 dB
-augmentation. Second, in the independent PHM2012 run-to-failure audit with 17
+interval [-12.72, -3.28]) under the evaluated fixed matched 0 dB realization.
+Second, in the independent PHM2012 run-to-failure audit with 17
 non-fragile bearings, clean-trained K3 raises mean balanced accuracy by
 \SI{24.51}{\pp}, but the healthy class gains \SI{70.75}{\pp} while the degraded
 class loses \SI{21.73}{\pp}. The pooled gain therefore coexists with an
