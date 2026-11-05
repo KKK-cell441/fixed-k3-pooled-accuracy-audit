@@ -1,0 +1,29 @@
+\begin{table}[t]
+\centering
+\caption{Pre-specified candidate reachability audit on HUSTbearing. The
+candidate set K2--K5 and the margins $\delta=1$ pp and $\eta=5$ pp were fixed
+before the audit. Unit intervals use held-out speeds; class intervals are
+Bonferroni-adjusted over five classes. All classes have positive support in
+all ten speed units.}
+\label{tab:candidate-qualification}
+\scriptsize
+\begin{tabular}{@{}llrrl@{}}
+\toprule
+Protocol & Candidate & Mean effect & Unit 95\% CI & Status \\
+\midrule
+Clean-trained & K2 & +17.67 & [11.89, 23.61] & Not qualified (class harm) \\
+Clean-trained & K3 & +9.72 & [6.78, 13.06] & Not qualified (class harm) \\
+Clean-trained & K4 & +4.50 & [0.89, 8.17] & Not qualified (class harm) \\
+Clean-trained & K5 & +4.72 & [2.56, 6.78] & Insufficient \\
+Matched augmentation & K2 & -10.50 & [-14.11, -6.67] & Not qualified (mean) \\
+Matched augmentation & K3 & -7.94 & [-12.56, -3.56] & Not qualified (mean) \\
+Matched augmentation & K4 & -5.61 & [-8.33, -3.11] & Not qualified (mean) \\
+Matched augmentation & K5 & -3.78 & [-6.11, -1.39] & Not qualified (mean) \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\footnotesize The closest case is clean-trained K5. Its
+mean-effect lower bound exceeds the materiality margin, but the outer-class
+interval is [-11.94, 6.39] pp, so the class-safety condition is not
+established. The rule therefore returns Insufficient.}
+\end{table}

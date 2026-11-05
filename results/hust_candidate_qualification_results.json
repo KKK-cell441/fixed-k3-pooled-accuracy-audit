@@ -1,0 +1,535 @@
+{
+  "design": {
+    "source": "HUSTbearing",
+    "candidate_set": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "protocols": [
+      "clean",
+      "matched"
+    ],
+    "speed_units": [
+      20,
+      25,
+      30,
+      35,
+      40,
+      60,
+      65,
+      70,
+      75,
+      80
+    ],
+    "training_seeds": [
+      20261103,
+      20261104,
+      20261105
+    ],
+    "noise_snr_db": 0.0,
+    "epochs": 20,
+    "delta_pp": 1.0,
+    "eta_pp": 5.0,
+    "class_confidence": 0.99,
+    "class_interval_method": "Bonferroni-adjusted percentile bootstrap",
+    "unit_bootstrap_draws": 20000,
+    "min_nonfragile_support": 6,
+    "candidate_selection": "fixed before inspecting audit results"
+  },
+  "summaries": {
+    "clean": {
+      "k2": {
+        "n_units": 10,
+        "n_seeds": 3,
+        "support_units_by_class": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "fragile_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "missing_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "mean_effect_pp": 17.666666666666668,
+        "mean_unit_interval_95_pp": [
+          11.88888888888889,
+          23.61111111111111
+        ],
+        "class_means_pp": [
+          33.88888888888889,
+          72.22222222222223,
+          18.88888888888889,
+          -57.50000000000001,
+          20.833333333333332
+        ],
+        "class_simultaneous_intervals_pp": [
+          [
+            25.0,
+            43.888888888888886
+          ],
+          [
+            56.11111111111112,
+            85.83333333333334
+          ],
+          [
+            6.666666666666667,
+            30.555555555555557
+          ],
+          [
+            -70.0,
+            -45.55555555555556
+          ],
+          [
+            4.722222222222221,
+            42.77777777777778
+          ]
+        ],
+        "status": "Not qualified",
+        "status_basis": "class harm"
+      },
+      "k3": {
+        "n_units": 10,
+        "n_seeds": 3,
+        "support_units_by_class": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "fragile_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "missing_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "mean_effect_pp": 9.722222222222223,
+        "mean_unit_interval_95_pp": [
+          6.777777777777779,
+          13.055555555555557
+        ],
+        "class_means_pp": [
+          11.666666666666666,
+          22.222222222222225,
+          1.111111111111111,
+          -33.05555555555555,
+          46.666666666666664
+        ],
+        "class_simultaneous_intervals_pp": [
+          [
+            -0.8333333333333331,
+            24.72222222222222
+          ],
+          [
+            9.722222222222221,
+            36.66666666666666
+          ],
+          [
+            0.0,
+            3.333333333333334
+          ],
+          [
+            -56.388888888888886,
+            -13.333333333333334
+          ],
+          [
+            24.443055555555553,
+            69.72222222222221
+          ]
+        ],
+        "status": "Not qualified",
+        "status_basis": "class harm"
+      },
+      "k4": {
+        "n_units": 10,
+        "n_seeds": 3,
+        "support_units_by_class": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "fragile_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "missing_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "mean_effect_pp": 4.500000000000001,
+        "mean_unit_interval_95_pp": [
+          0.8888888888888891,
+          8.16666666666667
+        ],
+        "class_means_pp": [
+          -6.388888888888888,
+          5.277777777777778,
+          0.0,
+          -21.38888888888889,
+          45.0
+        ],
+        "class_simultaneous_intervals_pp": [
+          [
+            -16.111111111111107,
+            1.111111111111111
+          ],
+          [
+            1.388888888888889,
+            10.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -41.666666666666664,
+            -6.109722222221938
+          ],
+          [
+            28.61111111111111,
+            60.0
+          ]
+        ],
+        "status": "Not qualified",
+        "status_basis": "class harm"
+      },
+      "k5": {
+        "n_units": 10,
+        "n_seeds": 3,
+        "support_units_by_class": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "fragile_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "missing_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "mean_effect_pp": 4.722222222222221,
+        "mean_unit_interval_95_pp": [
+          2.5555555555555554,
+          6.777777777777779
+        ],
+        "class_means_pp": [
+          14.72222222222222,
+          0.0,
+          0.0,
+          -3.055555555555555,
+          11.944444444444443
+        ],
+        "class_simultaneous_intervals_pp": [
+          [
+            7.49861111111111,
+            21.666666666666664
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -11.944444444444446,
+            6.38888888888889
+          ],
+          [
+            4.444444444444444,
+            20.0
+          ]
+        ],
+        "status": "Insufficient",
+        "status_basis": "mean or class evidence inconclusive"
+      }
+    },
+    "matched": {
+      "k2": {
+        "n_units": 10,
+        "n_seeds": 3,
+        "support_units_by_class": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "fragile_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "missing_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "mean_effect_pp": -10.500000000000002,
+        "mean_unit_interval_95_pp": [
+          -14.111111111111112,
+          -6.666666666666668
+        ],
+        "class_means_pp": [
+          -5.2777777777777795,
+          -10.277777777777777,
+          -13.88888888888889,
+          -7.7777777777777795,
+          -15.277777777777777
+        ],
+        "class_simultaneous_intervals_pp": [
+          [
+            -18.334722222222226,
+            7.777777777777775
+          ],
+          [
+            -24.166666666666664,
+            1.666666666666667
+          ],
+          [
+            -25.555555555555554,
+            -3.3333333333333335
+          ],
+          [
+            -22.77777777777778,
+            4.999999999999997
+          ],
+          [
+            -29.72222222222222,
+            -0.5555555555555558
+          ]
+        ],
+        "status": "Not qualified",
+        "status_basis": "mean effect"
+      },
+      "k3": {
+        "n_units": 10,
+        "n_seeds": 3,
+        "support_units_by_class": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "fragile_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "missing_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "mean_effect_pp": -7.944444444444445,
+        "mean_unit_interval_95_pp": [
+          -12.555555555555554,
+          -3.555555555555555
+        ],
+        "class_means_pp": [
+          -1.1111111111111112,
+          -5.833333333333331,
+          -10.555555555555555,
+          0.5555555555555547,
+          -22.77777777777778
+        ],
+        "class_simultaneous_intervals_pp": [
+          [
+            -9.444444444444445,
+            8.61111111111111
+          ],
+          [
+            -20.833333333333332,
+            6.111111111111113
+          ],
+          [
+            -27.77777777777778,
+            5.0
+          ],
+          [
+            -14.444444444444443,
+            19.722222222222225
+          ],
+          [
+            -38.88888888888889,
+            -8.055555555555555
+          ]
+        ],
+        "status": "Not qualified",
+        "status_basis": "mean effect"
+      },
+      "k4": {
+        "n_units": 10,
+        "n_seeds": 3,
+        "support_units_by_class": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "fragile_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "missing_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "mean_effect_pp": -5.611111111111111,
+        "mean_unit_interval_95_pp": [
+          -8.333333333333334,
+          -3.1111111111111116
+        ],
+        "class_means_pp": [
+          -0.5555555555555552,
+          -8.333333333333332,
+          -13.88888888888889,
+          -3.0555555555555567,
+          -2.2222222222222228
+        ],
+        "class_simultaneous_intervals_pp": [
+          [
+            -12.22222222222222,
+            15.555555555555554
+          ],
+          [
+            -21.11111111111111,
+            2.5
+          ],
+          [
+            -33.88888888888889,
+            2.222222222222222
+          ],
+          [
+            -17.5,
+            12.77777777777778
+          ],
+          [
+            -22.500000000000004,
+            19.16666666666666
+          ]
+        ],
+        "status": "Not qualified",
+        "status_basis": "mean effect"
+      },
+      "k5": {
+        "n_units": 10,
+        "n_seeds": 3,
+        "support_units_by_class": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "fragile_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "missing_by_class": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "mean_effect_pp": -3.7777777777777786,
+        "mean_unit_interval_95_pp": [
+          -6.111111111111112,
+          -1.3888888888888895
+        ],
+        "class_means_pp": [
+          -1.3877787807814457e-15,
+          -3.6111111111111116,
+          -5.555555555555554,
+          -3.055555555555556,
+          -6.666666666666668
+        ],
+        "class_simultaneous_intervals_pp": [
+          [
+            -17.777777777777782,
+            20.001388888889174
+          ],
+          [
+            -10.555555555555555,
+            4.999999999999997
+          ],
+          [
+            -18.888888888888886,
+            4.444444444444445
+          ],
+          [
+            -9.166666666666664,
+            3.055555555555555
+          ],
+          [
+            -17.777777777777775,
+            3.333333333333334
+          ]
+        ],
+        "status": "Not qualified",
+        "status_basis": "mean effect"
+      }
+    }
+  }
+}

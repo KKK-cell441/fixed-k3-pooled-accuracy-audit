@@ -1,0 +1,146 @@
+{
+  "algorithm": "sha256",
+  "document": "initial manuscript draft",
+  "files": [
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\main.tex",
+      "bytes": 55060,
+      "sha256": "191edd3c0a4e896304eb1dab8b07969b87fff598fe4d13b95972dd955895f010"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\cover_letter_measurement.tex",
+      "bytes": 3473,
+      "sha256": "41839c61a8e558fb178223fb4237fb6c67939ca5abc15624466c725c561df52d"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\cover_letter_measurement.pdf",
+      "bytes": 52174,
+      "sha256": "f744ef166742e0f8757846abc879cd4a95fc4a7b72eec608bb84318142ca534b"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\cover_letter_isa_transactions.tex",
+      "bytes": 4482,
+      "sha256": "bb0278b6b89205c31e7e87bdde5ceb0ffb33574e68d180f6bd3398ab817e0c91"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\cover_letter_isa_transactions.pdf",
+      "bytes": 66774,
+      "sha256": "9fd3c0e84b2ac85f30b798dd84fe191805574e2b7a2a04825422793519929610"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\validation_unit_table.tex",
+      "bytes": 2175,
+      "sha256": "42489db1a79e967712b69ac82d8212c6d49384e94f57809bc2b5e4bd87fb4eba"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\ccmg_clean_noise_table.tex",
+      "bytes": 842,
+      "sha256": "393314e70c7f4a8ed2a551815e756476ac3bc48910c62d1f47082a23f7ea7329"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\qualification_demo_table.tex",
+      "bytes": 1272,
+      "sha256": "8759bd0054b1a3c6ba94448e1f6fd467e3798a131d10e5f2506a76b9ac8c13f6"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\qualification_class_audit_table.tex",
+      "bytes": 2162,
+      "sha256": "e4025b2fe68e557a13fd021205f45f9d24f057a581f519e7219e976156e0b412"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\raw3_capacity_table.tex",
+      "bytes": 820,
+      "sha256": "f33d4d379e49cff1ef8a41939bd312126eb2494d37cc327170c1fe77007a2d2a"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\conventional_vs_qualification_table.tex",
+      "bytes": 846,
+      "sha256": "731bac322c6c3368ee9a5550838c0e340fb8d1be272fb22d007b0eaec28a6033"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\hust_dual_validation_table.tex",
+      "bytes": 684,
+      "sha256": "84169dcd08726d572ece7acdbe152f43f9441e328b247d091a414b571a427081"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\hust_noise_realization_table.tex",
+      "bytes": 1259,
+      "sha256": "18fb3711334847266acbb02a7be90c0024427bd5ac7e1d058fe93e1f08cbd54c"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\hust_augmented_split_table.tex",
+      "bytes": 764,
+      "sha256": "6281110107a92d440d5d7fb5c94eb3bbb4be5eef4452e5dd3256ef057b91917b"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\hust_noise_mismatch_table.tex",
+      "bytes": 795,
+      "sha256": "dffe1023f11f4d898377727d4d301cc886b9eb8c9fd926392de0a8260d19f133"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\hust_independent_k_table.tex",
+      "bytes": 503,
+      "sha256": "c60db8da163d901973904318f9ae2f4126c6773443a6b53637fa56dfb2e5db6b"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\hust_signal_control_table.tex",
+      "bytes": 629,
+      "sha256": "36342c3bc9b782d4f31407781434d0b9d5116f45314c9777d6ff88f254b7c269"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\qualification_operating_table.tex",
+      "bytes": 1138,
+      "sha256": "fe452fcfdc6d55e3251690bccf9dd2a73d1da749e5dc2b65f5b208bef3019b2e"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\references.bib",
+      "bytes": 12236,
+      "sha256": "10ca527145abe6379161f9331d2fc87dfad8ee812ee4d0cb80f16a7389d23bf4"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\main.pdf",
+      "bytes": 607419,
+      "sha256": "c80e94a12593d01f9d4f9f6cfab2b512408d33486b09cd1dd651b0377670360e"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\DRAFT_CONFIG.md",
+      "bytes": 923,
+      "sha256": "30dd8cb574b0ff530fc89ff6e52d78222cd731bb5cb9fe936e9ea7974b8b3c0e"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\DRAFT_AUDIT.md",
+      "bytes": 1865,
+      "sha256": "6860af0755cdba0c01d354d2af7d5d5af306f7dc4bb6ccdfef3345fae0964325"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\figures\\vmd_conditioned_analysis.pdf",
+      "bytes": 29915,
+      "sha256": "b09a8571d00697005b696bca496186324d6d3809f63c8820c31870335ca55c4b"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\figures\\ccmg_policy_comparison.pdf",
+      "bytes": 49238,
+      "sha256": "f5edb7ff800b2cbf7601c4325d904eb092202b343be1a25d029520a8604ebc10"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\figures\\hust_external_validation.pdf",
+      "bytes": 21962,
+      "sha256": "128faf24afac11503e0379d385a12e02042ca574958a8f35db34390794205d08"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\figures\\additional_external_bearing_audit.pdf",
+      "bytes": 23286,
+      "sha256": "edc0634d8a1c121f86d2b6efc91254ec0bb7f67e62ba956a4fead76084ead4d4"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\figures\\industrial_external_audit.pdf",
+      "bytes": 23946,
+      "sha256": "ffd95b29f3c1999960361cc6bbf3adb995645257f4d688de736d3926ea79d830"
+    },
+    {
+      "path": "C:\\Users\\17302\\Documents\\1111\\vmd_conditioned_paper_20261103\\manuscript_draft\\figures\\benefit_predictor_audit.pdf",
+      "bytes": 23008,
+      "sha256": "05b15a604b0c5a513842465a26ed3f9034e7dc02497aeb6509cee11abbd9a84c"
+    }
+  ]
+}

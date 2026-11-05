@@ -1,0 +1,67 @@
+{
+  "registration": "PHM2012-EXTERNAL-QUALIFICATION-20261105",
+  "status": "frozen_before_data_extraction",
+  "source": "IEEE PHM 2012 / PRONOSTIA full bearing lives",
+  "source_root": "D:/EvidenceAware_20261011/data/kaggle_phm2012/ieee-phm-2012-data-challenge-dataset-master",
+  "bearing_sets": [
+    "Learning_set",
+    "Full_Test_Set"
+  ],
+  "endpoint": {
+    "classes": [
+      "healthy",
+      "degraded"
+    ],
+    "healthy_window": "first 20 percent of each bearing life",
+    "degraded_window": "last 20 percent of each bearing life",
+    "middle_lifetime": "excluded",
+    "acquisitions_per_class_per_bearing": 12
+  },
+  "signal": {
+    "acceleration_column_zero_based": 4,
+    "window_samples": 2048,
+    "window_rule": "first 2048 samples of each acquisition",
+    "normalization": "per-window mean and standard deviation"
+  },
+  "noise": {
+    "type": "additive white Gaussian noise",
+    "snr_db": 0.0,
+    "test_realization": "single fixed realization shared by raw and K3",
+    "matched_training_realization": "single fixed realization shared by raw and K3",
+    "clean_training_protocol": "clean training, 0 dB test",
+    "matched_protocol": "clean plus noisy training, 0 dB test"
+  },
+  "representation": {
+    "primary": "K3",
+    "comparator": "raw",
+    "vmd_alpha": 2000.0,
+    "vmd_tau": 0.0,
+    "vmd_tolerance": 1e-6
+  },
+  "validation": {
+    "unit": "physical bearing",
+    "split": "leave one bearing out",
+    "seeds": [
+      20261103,
+      20261104,
+      20261105
+    ],
+    "epochs": 20,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001
+  },
+  "qualification": {
+    "delta_pp": 1.0,
+    "eta_pp": 5.0,
+    "class_family_confidence": 0.99,
+    "class_interval_method": "Bonferroni-adjusted percentile bootstrap",
+    "unit_bootstrap_draws": 20000,
+    "minimum_nonfragile_support": 6,
+    "required_classes": [
+      "healthy",
+      "degraded"
+    ]
+  },
+  "claim_boundary": "This is a locked external run-to-failure audit, not a prospective acquisition and not a reproduction of the five-class HUSTbearing endpoint."
+}
