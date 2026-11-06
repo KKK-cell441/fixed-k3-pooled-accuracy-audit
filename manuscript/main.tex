@@ -56,9 +56,11 @@ therefore fails. Matched augmentation changes the mean effect to
 \SI{-6.29}{\pp}. No external block receives a full Qualified status. A
 three-state evidence audit distinguishes Not qualified from Insufficient and
 organizes the decision, but it is a decision aid, not a validated certification
-framework. The empirical contribution is that pooled gains can reverse under
-matched measurement conditions and conceal class-specific harm. Raw remains
-the conservative default.
+framework. It also records the evidence gap behind each Insufficient state,
+separating established failure from data that additional units could in
+principle resolve. The empirical contribution is that pooled gains can reverse
+under matched measurement conditions and conceal class-specific harm. Raw
+remains the conservative default.
 \end{abstract}
 
 \noindent\textbf{Keywords:} rolling bearing diagnosis; measurement-conditioned
@@ -443,6 +445,16 @@ the prospective predeclaration condition. The non-fragile requirement is an
 audit requirement of this worked example, not a general small-sample
 statistical law.
 
+The audit reports not only the state but also the evidence gap behind an
+Insufficient result. For each Insufficient block, it records four fields: the
+missing dimension (mean effect, class support, clean baseline, or fragile
+interval); the gap type (missing, fragile, precision-limited, or
+protocol-limited); whether additional data could in principle resolve the gap;
+and the next action. The gap diagnosis does not change the state logic; it makes
+the reason for Insufficient auditable. When the evidence already establishes
+failure (a negative mean effect or a class interval below the harm margin), the
+gap is recorded as established failure rather than as a data gap.
+
 \subsection{Statistics and aggregation}
 
 We report paired percentage-point differences in test accuracy. Three
@@ -741,30 +753,33 @@ comparison. Intervals are unit-only decision intervals.}
 
 \begin{table}[t]
 \centering
-\caption{Worked evidence states under the illustrative margins
-$\delta=1$ pp and $\eta=5$ pp. The PHM2012 rows use a separate
-run-to-failure healthy/degraded endpoint with 17 independent bearings. All
-intervals shown are unit-only decision intervals; crossed robustness intervals
-are reported in the text.}
+\caption{Worked evidence states and the evidence gap behind each
+Insufficient result. Margins are $\delta=1$ pp and $\eta=5$ pp. The PHM2012
+rows use a separate run-to-failure healthy/degraded endpoint with 17 independent
+bearings. All intervals shown are unit-only decision intervals.}
 \label{tab:qualification-states}
-\footnotesize
-\begin{tabularx}{\linewidth}{@{}lrrlX@{}}
+\scriptsize
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.13\linewidth}rr>{\raggedright\arraybackslash}p{0.14\linewidth}>{\raggedright\arraybackslash}p{0.15\linewidth}>{\raggedright\arraybackslash}p{0.16\linewidth}>{\raggedright\arraybackslash}X@{}}
 \toprule
-Block & Units & Mean $\Delta$ (pp) & Unit-only 95\% CI & Status / basis \\
+Block & Units & Mean $\Delta$ (pp) & Unit-only 95\% CI & Status / basis & Evidence gap \\
 \midrule
-PHM2012 clean-trained (H/D) & 17 & +24.51 & [19.20, 29.74] & Not qualified / class harm \\
-PHM2012 matched (H/D) & 17 & -6.29 & [-12.17, -0.98] & Not qualified / mean effect \\
-HSE & 11 & +10.81 & [-2.31, 27.44] & Insufficient / mean and class inconclusive \\
-HUST-Hanoi & 33 & -0.42 & [-7.32, 5.72] & Insufficient / mean and class inconclusive \\
-SCA & 10 & -4.11 & [-12.89, 4.40] & Insufficient / mean and class inconclusive \\
-Mehran-UET & 12 & -11.81 & [-50.93, 28.01] & Not qualified / class harm \\
-HUSTbearing matched aug. & 10 & -7.94 & [-12.61, -3.44] & Not qualified / mean effect \\
-HUSTbearing matched bearing & 8 & +0.49 & [-0.62, 1.53] & Insufficient / mean interval crosses zero \\
+PHM2012 clean-trained (H/D) & 17 & +24.51 & [19.20, 29.74] & Not qualified / class harm & Established failure: degraded class below $-5$ pp; not resolvable by adding bearings \\
+PHM2012 matched (H/D) & 17 & -6.29 & [-12.17, -0.98] & Not qualified / mean effect & Established failure: upper bound below $\delta$; not resolvable by adding bearings \\
+HSE & 11 & +10.81 & [-2.31, 27.44] & Insufficient / mean and class inconclusive & Precision-limited mean interval; fragile class support (outer $n=2$; inner and rolling $n=3$); support-count gaps 4 and 3 \\
+HUST-Hanoi & 33 & -0.42 & [-7.32, 5.72] & Insufficient / mean and class inconclusive & Fragile class support; 1--2 additional independent bearings per class \\
+SCA & 10 & -4.11 & [-12.89, 4.40] & Insufficient / mean and class inconclusive & Precision-limited mean interval; class support non-fragile but interval crosses zero \\
+Mehran-UET & 12 & -11.81 & [-50.93, 28.01] & Not qualified / class harm & Established failure: inner class below $-\eta$; not resolvable by adding bearings \\
+HUSTbearing matched speed & 10 & -7.94 & [-12.61, -3.44] & Not qualified / mean effect & Established failure: upper bound below $\delta$; not resolvable by adding bearings \\
+HUSTbearing matched bearing & 8 & +0.49 & [-0.62, 1.53] & Insufficient / mean interval crosses zero & Precision-limited; more units could narrow the interval but the effect is near zero \\
 \bottomrule
 \end{tabularx}
 \par\smallskip
-\parbox{\linewidth}{\footnotesize HUSTbearing crossed robustness interval:
-[-12.72, -3.28]. It is not the decision interval.}
+\parbox{\linewidth}{\scriptsize HUSTbearing crossed robustness interval:
+[-12.72, -3.28]; it is not the decision interval. The HSE support-count gap is
+the number of additional independent bearings needed to reach the non-fragile
+threshold, not a power calculation. No precise $N$ is reported for narrowing a
+mean-effect interval because that extrapolation depends on the unit-effect
+distribution and the interval method.}
 \end{table}
 
 Figure \ref{fig:external-forest} and Table
@@ -1023,7 +1038,8 @@ PHM2012 matched & run-to-failure bearing & 17 & 3 & 1 & locked external audit \\
 \section{Operating characteristics and field actions}
 
 Figure \ref{fig:operating} reports the synthetic operating characteristics,
-and Table \ref{tab:field-actions} maps each state to a field action.
+and Table \ref{tab:field-actions} maps each state and evidence gap to a field
+action.
 
 \begin{figure}[t]
 \centering
@@ -1042,25 +1058,30 @@ datasets.
 
 \begin{table}[t]
 \centering
-\caption{Field actions for the three authorization states.}
+\caption{Field actions by evidence state and evidence gap.}
 \label{tab:field-actions}
-\small
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.14\linewidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\footnotesize
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.12\linewidth}>{\raggedright\arraybackslash}p{0.19\linewidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
 \toprule
-State & Immediate action & Required follow-up \\
+State & Evidence gap & Immediate action & Required follow-up \\
 \midrule
-Qualified & Enable the candidate only for the declared validation unit and
-operating envelope; log the version and margins. & Monitor drift and re-qualify
-after any change in sensor, mounting, speed/load, bearing type, fault mix, or
-baseline condition. \\
-Not qualified & Keep raw as the production default; do not enable the
-candidate for that unit. & Reopen only with a new prespecified comparator,
-unit, or measurement condition; do not reinterpret the same test outcome as a
-qualified result. \\
-Insufficient & Keep raw or use a controlled engineering pilot without a
-production benefit claim. & Add independent units, missing class support, or
-the missing class-level interval; then repeat Stage 2. Do not resolve
-insufficiency by weakening $\delta$, $\eta$, or the confidence level. \\
+Qualified & None & Enable only for the declared validation unit and operating
+envelope; log the version and margins. & Monitor drift; re-qualify after
+sensor, mounting, speed/load, bearing type, fault mix, or baseline change. \\
+Not qualified & Established failure (mean effect or class harm) & Keep raw as
+the production default; do not enable the candidate. & Reopen only with a new
+prespecified comparator, unit, or measurement condition; do not reinterpret
+the same outcome as qualified. \\
+Insufficient & Missing class support & Keep raw or run a controlled pilot
+without a benefit claim. & Add independent bearings covering the missing class;
+repeat the validation-unit audit. \\
+Insufficient & Fragile class interval & Keep raw or run a controlled pilot. &
+Add at least the support-count gap for non-fragile status; repeat the audit. \\
+Insufficient & Precision-limited mean interval & Keep raw or run a controlled
+pilot. & Add independent units; repeat the audit. Do not weaken $\delta$,
+$\eta$, or the confidence level. \\
+Insufficient & Protocol-limited (no clean baseline or matched comparator) &
+Keep raw. & Add the missing protocol condition; repeat the audit. \\
 \bottomrule
 \end{tabularx}
 \end{table}
